@@ -34,7 +34,7 @@ a:visited {
 	top:0px;
 	width:100%; 
 	height:auto; 
-	background-color:#ffffff;
+	background-color:#d56852;
 	z-index:100;
 }
 #logo {
@@ -61,7 +61,7 @@ a:visited {
 
 .navigation .active{
 	cursor:pointer;
-	color: #d1563b;
+	color: #ffffff;
 	font-weight:bold;
 }
 
@@ -139,9 +139,6 @@ a:visited {
 	font-weight: 400;
 }
 
-
-
-
 /* Slide 3 */ 
 
 #slide3{
@@ -151,21 +148,31 @@ a:visited {
 	font-size: 3.8em;
 	letter-spacing: -3px;
 	line-height: 0px;
-	color:#8a8683;
+	color:#4d5455;
 	font-weight: 700;
 }
 #slide3 h2 {
 	font-size: 2em;
-	color: #8a8683;
+	color: #4d5455;
 	line-height: 0px;
-	padding-bottom:20px;
+	padding-bottom:50px;
 	font-weight: 400;
+}
+#slide3 p {
+	padding-bottom: 60px;
 }
 #test{	
 	color:#ffffff;
 	text-align:center;
 	font-size: 2em;
 	font-weight: 400;
+}
+#imageBg{
+	background-color:#bde2df;
+}
+
+#download{
+	position: center;
 }
 
 
@@ -174,7 +181,7 @@ a:visited {
 /* Slide 4 */
 
 #slide4{
-	background-image:url('../images/sunglasses.png');
+	background-image:url('../images/footsteps.png');
 	background-color:#8a8683;
 	color:#ffffff;
 }
